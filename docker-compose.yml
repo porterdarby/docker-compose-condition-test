@@ -1,0 +1,10 @@
+version: "3.9"
+services: 
+    depender:
+        build: depender
+        depends_on: 
+            dependee:
+                condition: service_healthy
+
+    dependee:
+        build: dependee
