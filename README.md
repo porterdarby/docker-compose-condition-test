@@ -1,4 +1,4 @@
-A repository that `docker-compose`'s `depends_on` field does support `condition`.
+A repository that shows `docker-compose`'s `depends_on` field does support `condition`.
 
 # Usage
 1. Clone this repository
